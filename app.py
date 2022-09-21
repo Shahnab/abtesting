@@ -270,6 +270,8 @@ Upload experiment results to see the significance of A/B test
 """
 )
 
+st.markdown("Demo data for uploading- [link](https://drive.google.com/drive/folders/1vmA-XSfumXF2x4bTgfcsP-hMTDRPTYnV?usp=sharing)")
+
 uploaded_file = st.file_uploader("Upload CSV", type=".csv")
 
 # use_example_file = st.checkbox(
